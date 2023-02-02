@@ -36,16 +36,17 @@ div {
 
 #demo1 a {
    color: #fff;
-   background-color: #333;
+   background-color: rgb(63, 205, 122);
    text-decoration: none;
    padding: 5px 10px;
    display: inline-block;
+transition: background-color 1s ease-out;
 }
-
 #demo1 a:hover,
 #demo1 a:focus {
    color: #333;
    background-color: #fff;
+margin-left: 100px;
 }
 
 
@@ -117,4 +118,5 @@ div {
 }
 #demo5 div:hover {
     border-radius: 100px;
+transform: rotate(90deg)
 }
