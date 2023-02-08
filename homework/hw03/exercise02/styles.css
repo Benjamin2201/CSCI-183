@@ -1,4 +1,4 @@
-{
+main{
     margin:15vw;
 }
 
@@ -31,7 +31,7 @@ code {
     row-gap: 20px;
     column-gap: 20px;
     
-
+ 
 
 .card {
     border: solid 2px #000;
@@ -48,4 +48,28 @@ footer {
     padding: 30px;
     margin-top: 30px;
     text-align: center;
+}
+
+Main{
+    
+    #card1.card{
+        background-color: #EEEEEE;
+    }
+
+    #card3.card{
+        background-color: #EEEEEE;
+    }
+    #card5.card{
+        background-color: #EEEEEE;
+    }
+    #card2.card{
+        background-color: #BCE5D6 ;
+    }
+    #card.card4{
+        background-color: #BCE5D6;
+    }
+    #card6.card{
+        background-color: #BCE5D6;
+    }
+
 }
