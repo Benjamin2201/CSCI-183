@@ -1,5 +1,6 @@
 main{
-    margin:15vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 header {
@@ -36,6 +37,7 @@ code {
 .card {
     border: solid 2px #000;
     padding: 10px;
+    border-radius: 50%;
 }
 
 .card img {
@@ -50,26 +52,22 @@ footer {
     text-align: center;
 }
 
-Main{
-    
-    #card1.card{
-        background-color: #EEEEEE;
-    }
-
-    #card3.card{
-        background-color: #EEEEEE;
-    }
-    #card5.card{
-        background-color: #EEEEEE;
-    }
-    #card2.card{
-        background-color: #BCE5D6 ;
-    }
-    #card.card4{
-        background-color: #BCE5D6;
-    }
-    #card6.card{
-        background-color: #BCE5D6;
-    }
-
+#card1{
+    background-color:#EEEEEE;
+    border-radius: 50%;
+}
+#card2{
+    background-color: #bce5d6;
+}
+#card3{
+    background-color:#EEEEEE;
+}
+#card4{
+    background-color: #bce5d6;
+}
+#card5{
+    background-color:#EEEEEE;
+}   
+#card6{
+    background-color: #bce5d6; 
 }
