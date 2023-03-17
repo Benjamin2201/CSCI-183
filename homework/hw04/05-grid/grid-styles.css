@@ -4,9 +4,27 @@ body {
     background: pink;
 }
 
+body{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+
 .grid-container {
     height: 100vh;
-    /* you will add addition rules for the container here  */
+
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: aquamarine;
 }
 
-/* create your child rules here:  */
+.grid-container{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    color: beige;
+    
+}

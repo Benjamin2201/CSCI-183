@@ -13,9 +13,9 @@ body {
 body {
     margin: 0;
 }
-nav.ul{
+nav{
     display: flex;
-    align-items:;
+    flex-direction: row; justify-content: left;
 
 }
 nav {
