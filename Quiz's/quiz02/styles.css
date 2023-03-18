@@ -1,3 +1,55 @@
+
+
+nav{
+    display:flex;
+    justify-content: flex-end;
+    line-height: ;
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+h1,h2,h3{
+    @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+    font-family: 'Passion One', cursive;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: repeat(4, auto);
+    column-gap: 10px;
+    row-gap: 10px;
+    
+}
+
+
+   
+
+.card{
+    display: flex;
+    height: 40vh;
+    border: solid black;
+    background-color: white;
+    transition: all .4s ease-out;
+    
+}
+
+.card:hover{
+    background-color:#013672 ;
+    color: white;
+   
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+ 
+}
+
 body * {
     box-sizing: border-box;
 }
