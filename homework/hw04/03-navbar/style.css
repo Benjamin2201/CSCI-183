@@ -14,8 +14,7 @@ body {
     margin: 0;
 }
 nav{
-    display: flex;
-    flex-direction: row; justify-content: left;
+   
 
 }
 nav {
@@ -26,9 +25,26 @@ nav {
   padding: 10px;
   height: auto;
   display: flex;
-  flex-direction: row; 
+  
+ 
+  border: solid black;
 }
 
+nav.ul{
+    display: flex;
+    justify-content: space-between; 
+    justify-content: flex-end ;
+    border: solid black;
+
+}
+ 
+ul.bio(
+    border: solid black;
+)
+.h1{
+    justify-content: flex-start;
+    border: solid black;
+}
 nav a {
   color: #f2f2f2;
   text-decoration: none;
