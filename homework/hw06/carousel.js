@@ -1,3 +1,19 @@
+
+
+<section class="carousel" aria-label="Photo Carousel">
+    <div class="current-photo">
+        <!-- Replace image here -->
+        <img src="images/img1-600x400.jpg" alt="current photo" />
+    </div> 
+    <button class="back" onclick="back()" aria-label="Show previous slide">
+        <img src="images/left.png" alt="" />
+    </button>
+    <button class="forward" onclick="forward()" aria-label="Show next slide">
+        <img src="images/right.png" alt="" />
+    </button>
+    <p class="caption">Image 1 of 10</p>
+</section>
+
 const photos = [
     "images/img1-600x400.jpg",
     "images/img2-600x400.jpg",
@@ -11,6 +27,18 @@ const photos = [
     "images/img10-600x400.jpg"
 ];
 let idx = 0;
+
+function showImage() {
+    console.log('Show image');
+}
+
+function forward() {
+    console.log('forward');
+}
+
+function back() {
+    console.log('back');
+}
 
 
 /* This function should:
@@ -30,6 +58,8 @@ function showImage() {
 */
 function forward() {
     console.log('forward');
+    ++idx;
+    showImage();
 }
 
 
