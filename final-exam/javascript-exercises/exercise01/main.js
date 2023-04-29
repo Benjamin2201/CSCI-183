@@ -1,25 +1,30 @@
-function color1() {
-    // target the element with the id of square1
-    // and change its background color...
+function makeOrange() {
+
+        document.querySelector('div').style.backgroundColor = 'orange'
 }
 
-function color2() {
-    // target the element with the id of square2
-    // and change its background color...
+function makeBlue() {
+
+       document.querySelector('div').style.backgroundColor = 'blue'
+    
 }
 
-function color3() {
-    // TODO
+function makeYellow() {
+        document.querySelector('div').style.backgroundColor = 'yellow'
 }
 
-function color4() {
-    // TODO
+function makeRed() {
+        document.querySelector('div').style.backgroundColor = 'red'
 }
 
-function color5() {
-    // TODO
+function makePink() {
+        document.querySelector('div').style.backgroundColor = 'pink'
 }
 
-function color6() {
-    // TODO
+function makePurple() {
+        document.querySelector('div').style.backgroundColor = 'purple'
+}
+
+function changeColor(bgcolor){
+    document.querySelector ('div').style.backgroundColor = bgcolor;
 }
